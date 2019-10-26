@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h1>登录</h1>
+        <h1>第二个组件</h1>
+        <input type="text" v-model="$store.state.msg">
     </div>
 </template>
 
@@ -11,10 +12,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    h1{
-        color: red;
-        a{ 
-            font-size:12px;
-        }
-    }
+   
 </style>
